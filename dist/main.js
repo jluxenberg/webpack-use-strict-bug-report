@@ -16,10 +16,9 @@ return (this["webpackChunkMyLibrary"] = this["webpackChunkMyLibrary"] || []).pus
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "hello": () => (/* binding */ hello)
 /* harmony export */ });
 function hello() { console.log("hello world"); }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (hello);
 
 
 /***/ })
@@ -30,6 +29,7 @@ function hello() { console.log("hello world"); }
 /******/ 
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
 /******/ var __webpack_exports__ = (__webpack_exec__(138));
+/******/ return __webpack_exports__;
 /******/ }
 ]);
 });
